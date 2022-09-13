@@ -31,16 +31,12 @@ main{
     margin-top: 20px;
     margin: 20px;
     width: auto;
-    /* border-radius: 15px 15px 15px 15px;
-    background: #becfe6;
-    padding: 20px;
-    width: 200px;
-    height: 100px; */
+
 }
 #entered-number{
     border-radius: 15px 15px 15px 15px;
     border-color: whitesmoke;
-    background: #becfe6;
+    background: #d0d4da;
     padding: 20px;
     width: 200px;
     height: 40px;
@@ -50,4 +46,15 @@ main{
 
 #number-range{
     color: white;
+}
+
+#counts{
+    color: white;
+}
+
+#result{
+    border: dotted 1px aliceblue;
+    height: 50px;
+    color: white;
+    
 }

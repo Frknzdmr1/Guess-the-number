@@ -12,15 +12,18 @@
     <main>
         <h1 id="title">Guess the Number <span id="number-range">(1-100)</span></h1>
         
-        <!-- Form(for the number input) -->
+       
         <form id="add-number">
             <input type="number" id="entered-number" placeholder="Number">
-            <button>Check</button>
+            <button id="btn-check">Check</button>
         </form>
 
         <section id="stats">
             <h3 class="count">
-                <span> 0 </span> attempts
+                <span id="counts"> 0 </span> <span id="attempt">Attempts</span> 
+                <p id="guessed-numbers"> Previous guesses : </p>
+                <p id="result"></p>
+                <button class="new-game">New Game!</button>
             </h3>
         </section>
     </main>
