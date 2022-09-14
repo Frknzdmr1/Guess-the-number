@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 body{
@@ -25,6 +26,7 @@ main{
 #title{
     font-size: 2.5rem;
     padding-bottom: 50px;
+    margin-top: 30px;
 }
 
 #add-number{
@@ -53,8 +55,25 @@ main{
 }
 
 #result{
-    border: dotted 1px aliceblue;
-    height: 50px;
-    color: white;
+    border:dashed 2px aliceblue;
+    margin: auto;
+    margin-top: 25px;
+    height: 80px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    color: rgb(240, 169, 128);
+    font-size: 30px;
     
+}
+
+.new-game, #btn-check{
+    height: 2.5rem;
+    width: 80px;
+    color: rgba(11, 126, 197, 0.795);
+    border: solid 1px grey;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 30px;
 }

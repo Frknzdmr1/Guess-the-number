@@ -9,24 +9,23 @@
     
 </head>
 <body>
-    <main>
+    <div>
         <h1 id="title">Guess the Number <span id="number-range">(1-100)</span></h1>
         
        
-        <form id="add-number">
+        <div id="add-number">
             <input type="number" id="entered-number" placeholder="Number">
             <button id="btn-check">Check</button>
-        </form>
+        </div>
 
-        <section id="stats">
+        <div id="stats">
             <h3 class="count">
                 <span id="counts"> 0 </span> <span id="attempt">Attempts</span> 
-                <p id="guessed-numbers"> Previous guesses : </p>
-                <p id="result"></p>
+                <p id="result"> Start guessing! </p>
                 <button class="new-game">New Game!</button>
             </h3>
-        </section>
-    </main>
+        </div>
+    </div>
 
     <script src="./app.js"></script>
 </body>
