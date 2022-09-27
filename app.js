@@ -8,6 +8,7 @@ var result = document.querySelector('#result');
 var newGameBtn = document.querySelector('.new-game');
 var currentScore = 0; 
 var randomNumber = Math.ceil(Math.random()*100);
+
 checkBtn.addEventListener('click', function(){
 
     var guessedNumber = document.querySelector('#entered-number').value;
